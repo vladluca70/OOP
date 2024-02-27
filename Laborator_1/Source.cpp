@@ -10,7 +10,7 @@ int main()
     char input[50] = "---H***E+++L+++L///O---P+++O/+-**O---"; 
     func Operatori[4] = {Sum, Dif, Mul, Div};
     int S=0;
-    Content x= {15,100};
+    Content x= {15,0};
     double idx; 
     int i;
 
