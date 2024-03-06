@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1709746988 source:c:\users\user\desktop\laborator_2\laborator_2\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+	"Movie.h"
+	"MovieSeries.h"
+
+1709746993 c:\users\user\desktop\laborator_2\laborator_2\movie.h
+
+1709746912 c:\users\user\desktop\laborator_2\laborator_2\movieseries.h
+
