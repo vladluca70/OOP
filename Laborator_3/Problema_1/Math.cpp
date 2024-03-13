@@ -1,6 +1,5 @@
 #include "Math.h"
 #include <cstdarg>
-//#include <cstring>
 
 int Math::Add(int a, int b)
 {
