@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1710942788 source:c:\users\user\desktop\tema_oop\1\ex1\main.cpp
+	<iostream>
+	"Sort.h"
+
+1710942481 c:\users\user\desktop\tema_oop\1\ex1\sort.h
+
+1710942573 source:c:\users\user\desktop\tema_oop\1\ex1\sort.cpp
+	<iostream>
+	<cstdlib>
+	<stdarg.h>
+	<cstring>
+	"Sort.h"
+

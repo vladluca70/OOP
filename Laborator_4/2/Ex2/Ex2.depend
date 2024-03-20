@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1710943322 source:c:\users\user\desktop\tema_oop\2\ex2\main.cpp
+	"MyLibrary.h"
+	<iostream>
+
+1710943781 c:\users\user\desktop\tema_oop\2\ex2\mylibrary.h
+	<ostream>
+
+1710943588 source:c:\users\user\desktop\tema_oop\2\ex2\mylibrary.cpp
+	"MyLibrary.h"
+	<ostream>
+	<cmath>
+	<cstring>
+	<stdarg.h>
+	<initializer_list>
+
