@@ -5,13 +5,6 @@
 #include <stdarg.h>
 #include <initializer_list>
 
-#define MAX_SIZE 4096
-
-MyLibrary::~MyLibrary()
-{
-    delete[] books;
-}
-
 MyLibrary::MyLibrary(std::ostream& output_stream) : output_stream(output_stream)
 {
     books_count = -1;
@@ -44,7 +37,7 @@ MyLibrary::MyLibrary(std::ostream& output_stream, const char* books_values) : ou
     int lungime = strlen(books_values);
     int i = 0;
     int id_curent = 0;
-    books = new int[MAX_SIZE];
+    books = new int[4096];
 
     while (i < lungime)
     {
@@ -85,12 +78,17 @@ MyLibrary::MyLibrary(std::ostream& output_stream, unsigned books_count, ...) : o
 MyLibrary::MyLibrary(std::initializer_list<int> v) : output_stream(output_stream)
 {
     books_count = 0;
-    books = new int[MAX_SIZE];
+    books = new int[4096];
     for (auto& valoare : v)
     {
         books[books_count] = valoare;
         books_count++;
     }
+}
+
+MyLibrary::~MyLibrary()
+{
+    delete[] books;
 }
 
 void MyLibrary::print_books() const
@@ -136,7 +134,7 @@ MyLibrary& MyLibrary::operator=(const MyLibrary& other)
     if (this != &other)
     {
         delete[] books;
-        output_stream.rdbuf(other.output_stream.rdbuf()); // Copy stream buffer
+        output_stream.rdbuf(other.output_stream.rdbuf()); 
         books_count = other.books_count;
         books = new int[books_count];
         for (int i = 0; i < books_count; i++)
