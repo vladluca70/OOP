@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1711562086 source:c:\users\vladl\desktop\laborator_5\ex-2\complex.cpp
+	"Complex.h"
+	<cmath>
+
+1711562181 c:\users\vladl\desktop\laborator_5\ex-2\complex.h
+	<ostream>
+
+1711562128 source:c:\users\vladl\desktop\laborator_5\ex-2\main.cpp
+	<iostream>
+	<cmath>
+	"complex.h"
+
