@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1712394489 source:c:\users\vladl\desktop\c ++\ooplabs\lab6\ex1\bmw.cpp
+	"BMW.h"
+
+1712395040 c:\users\vladl\desktop\c ++\ooplabs\lab6\ex1\bmw.h
+	<iostream>
+	"Car.h"
+	"Weather.h"
+
+1712395195 c:\users\vladl\desktop\c ++\ooplabs\lab6\ex1\car.h
+	<cstring>
+	"Weather.h"
+
+1712394802 c:\users\vladl\desktop\c ++\ooplabs\lab6\ex1\weather.h
+
+1712395097 source:c:\users\vladl\desktop\c ++\ooplabs\lab6\ex1\circuit.cpp
+	<iostream>
+	"Circuit.h"
+
+1712395077 c:\users\vladl\desktop\c ++\ooplabs\lab6\ex1\circuit.h
+	"BMW.h"
+	"Car.h"
+	"Weather.h"
+
+1712394489 source:c:\users\vladl\desktop\c ++\ooplabs\lab6\ex1\fiat.cpp
+	"Fiat.h"
+
+1712394488 c:\users\vladl\desktop\c ++\ooplabs\lab6\ex1\fiat.h
+	<iostream>
+	"Car.h"
+	"Weather.h"
+
+1712394488 source:c:\users\vladl\desktop\c ++\ooplabs\lab6\ex1\rangerover.cpp
+	"RangeRover.h"
+
+1712394489 c:\users\vladl\desktop\c ++\ooplabs\lab6\ex1\rangerover.h
+	<iostream>
+	"Car.h"
+	"Weather.h"
+
+1712394488 source:c:\users\vladl\desktop\c ++\ooplabs\lab6\ex1\seat.cpp
+	"Seat.h"
+
+1712394489 c:\users\vladl\desktop\c ++\ooplabs\lab6\ex1\seat.h
+	<iostream>
+	"Car.h"
+	"Weather.h"
+
+1712394489 source:c:\users\vladl\desktop\c ++\ooplabs\lab6\ex1\volvo.cpp
+	"Volvo.h"
+
+1712395040 c:\users\vladl\desktop\c ++\ooplabs\lab6\ex1\volvo.h
+	<iostream>
+	"Car.h"
+	"Weather.h"
+
+1712395040 source:c:\users\vladl\desktop\c ++\ooplabs\lab6\ex1\main.cpp
+	<iostream>
+	"Circuit.h"
+	"BMW.h"
+	"Fiat.h"
+	"RangeRover.h"
+	"Seat.h"
+	"Volvo.h"
+
