@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1712765181 source:c:\users\vladl\desktop\c ++\laborator_7\p3\main.cpp
+	<iostream>
+	"TreeNode.h"
+
+1712765133 c:\users\vladl\desktop\c ++\laborator_7\p3\treenode.h
+	<iostream>
+

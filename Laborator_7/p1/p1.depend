@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1712671478 source:c:\users\vladl\desktop\c ++\ooplabs\lab6\p1\main.cpp
+	"Vector.h"
+
+1712671406 c:\users\vladl\desktop\c ++\ooplabs\lab6\p1\vector.h
+	<iostream>
+
