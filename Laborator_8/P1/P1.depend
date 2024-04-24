@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1713967143 source:c:\users\vladl\desktop\grafica\laborator_8\p1\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<map>
+	<queue>
+	<cctype>
+
